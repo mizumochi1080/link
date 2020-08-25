@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(200, 255, 200);
+    margin: 25px;
+    display: flex;
+}
+
+nav {
+    width: 200px;
+    margin: 0 3px;
+}
+
+.title {
+    font-size: 21px;
+    background-color: rgb(172, 238, 255);
+    padding: 15px 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.btn,
+.title {
+    user-select: none;
+    text-align: center;
+    list-style: none;
+}
+  
+.btn a {
+    font-size: 18px;
+    color: black;
+    background-color: rgb(172, 255, 172);
+    text-decoration: none;
+    padding: 6px 30px;
+    margin-top: 3px;
+    display: block;
+}
+
+.btn a:hover {
+    background-color: rgb(225, 255, 225);
+    transition: 0.3s;
+}
